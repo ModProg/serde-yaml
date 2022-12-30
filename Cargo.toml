@@ -15,7 +15,7 @@ rust-version = "1.58"
 indexmap = { version = "1.9", features = ["std"] }
 itoa = "1.0"
 ryu = "1.0"
-serde = "1.0.139"
+serde = { git = "https://github.com/ModProg/serde/", branch = "tagged-in-untagged-enums", version = "1.0.152" }
 unsafe-libyaml = "0.2.4"
 
 [dev-dependencies]
